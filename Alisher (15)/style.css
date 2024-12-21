@@ -1,0 +1,66 @@
+.container {
+    display: flex;/*Flex konteynerini yaratish*/
+}
+.container {
+display: flex;
+    justify-content: center;/*Gorinzontal hizalash*/
+    align-items: center;/*Vertikal hizalash*/
+}
+.container {
+    display:flex;
+    justify-content: space-between;/*Elemennnnnntlarni orasida teng boshliq*/
+}
+.item {
+    align-self: flex-end;/*Bu elementni faqat pastga hizalaydi*/
+}
+.grid-container {
+    display:grid;/*Grid konteyneri faollashtirish*/
+}
+.grid-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;/*Uchta ustun yarating*/
+    grid-template-rows: 100px 1000px;/*Ikki qatorli tartib*/
+}
+.item1 {
+    grid-column: 1/2;/*Birinchi ustunda joylashdi*/
+    grid-row:1/2; /*Birinchi satrda joylashdi*/
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:20px/*Elementlar orasida orasidagi boshliq*/
+}
+.grid-container {
+    display:grid;
+    grid-template-columns: repeat(auto-fill,minmax(20px,1fr));
+}
+.container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;/*Ekranning toliq balandligi*/
+}
+.item {
+    padding:50px;
+    background-color: lightblue;
+    margin:30px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);/*Uchta ustunli grid*/
+    gap:20px/*Boshliqlar*/
+}
+.item {
+    background-color: lightgreen;
+    padding:50px;
+}
+.container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;/*ekraning qishiqligi*/
+}
+.grid-container{
+    display:grid;
+    grid-template-columns: repeat(auto-fill,minmax(20px,1fr));  
+}
